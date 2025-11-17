@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="th">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>ล้าง / ขยายรูป — 108 Digital Photo</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      :root {
+        --green: #2f8b5b;
+        --bg: #ffffff;
+        --card: #fff;
+        --muted: #6b5442;
+        --accent: #f6b35c;
+        font-family: "Noto Sans Thai", "Arial", sans-serif;
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: #222;
+      }
+
+      header {
+        background-image: url("picture/BG_header.png");
+        background-size: cover;
+        background-position: center;
+        color: white;
+        padding-bottom: 10px;
+        text-align: center;
+      }
+
+      .header-bar {
+        position: relative;
+        width: 100%;
+      }
+
+      .bar-img {
+        width: 100%;
+        display: block;
+      }
+
+      .logo-img {
+        position: absolute;
+        top: 0;
+        left: 8px;
+        width: 20%;
+      }
+
+      header h1 {
+        margin: 0;
+        font-size: 20px;
+      }
+      .container {
+        max-width: 900px;
+        margin: 20px auto;
+        padding: 0 16px;
+      }
+      .intro {
+        background: var(--card);
+        padding: 14px;
+        border-radius: 10px;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+      }
+      .intro p {
+        margin: 6px 0;
+        color: var(--muted);
+      }
+      .price-card {
+        margin-top: 16px;
+        background: var(--card);
+        padding: 14px;
+        border-radius: 10px;
+        box-shadow: 0 1px 6px rgba(0, 0, 0, 0.06);
+      }
+      .highlight {
+        background: var(--accent);
+        color: #fff;
+        padding: 10px;
+        border-radius: 8px;
+        text-align: center;
+        font-weight: 700;
+        margin-bottom: 12px;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 6px;
+      }
+      th,
+      td {
+        padding: 10px;
+        border: 1px solid #efe6da;
+        text-align: center;
+        font-size: 15px;
+      }
+      th {
+        background: #fff6ea;
+        color: var(--muted);
+        font-weight: 700;
+      }
+      .best {
+        background: #fff0d8;
+        color: #b55800;
+        font-weight: 700;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 12px;
+        margin-top: 14px;
+      }
+      .cta-row {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        margin-top: 12px;
+      }
+      .btn {
+        flex: 1;
+        padding: 12px;
+        border-radius: 10px;
+        text-align: center;
+        text-decoration: none;
+        color: #fff;
+        font-weight: 700;
+      }
+      .btn-chat {
+        background: var(--green);
+      }
+      .btn-order {
+        background: #ff8a42;
+      }
+      .note {
+        font-size: 13px;
+        color: var(--muted);
+        margin-top: 8px;
+      }
+
+      footer {
+        margin: 28px 0 60px;
+        color: var(--muted);
+        font-size: 13px;
+        text-align: center;
+      }
+      @media (min-width: 700px) {
+        header h1 {
+          font-size: 26px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <img src="picture/header_bar.png" alt="header bar" class="bar-img" />
+
+      <img src="picture/108logo_header.png" alt="logo" class="logo-img" />
+      <img
+        src="picture/printPhoto_title_header.png"
+        alt="title header"
+        style="width: 70%; padding-top: 10px"
+      />
+      <img
+        src="picture/headerBanner(print).png"
+        alt="print photo"
+        style="width: 75%"
+      />
+    </header>
+
+    <main class="container">
+      <img
+        src="picture/printPhoto_main-1.png"
+        alt="print photo main-1"
+        style="width: 90%; display: block; margin: 0 auto"
+      />
+
+      <div>
+        <img
+          src="picture/printPhoto_main-2.png"
+          alt="print photo main-2"
+          style="width: 90%; display: block; margin: 0 auto; padding-top: 10px"
+        />
+      </div>
+
+      <img
+        src="picture/printPhoto_main-3.png"
+        alt="print photo main-3"
+        style="width: 90%; display: block; margin: 0 auto; padding-top: 20px"
+      />
+
+      <img
+        src="picture/printPhoto_main-4.png"
+        alt="print photo main-4"
+        style="width: 100%; padding-top: 10px"
+      />
+
+      <footer>
+        <br />
+        &#x23F3; จันทร์ - เสาร์: 08.30–18.00 น. <br />
+        &#x1F4E7; 108dexpress@gmail.com <br />
+        &#x1F4DE; 076-641-229
+      </footer>
+    </main>
+  </body>
+</html>
